@@ -62,21 +62,24 @@ crud-notetaking-application/
 ### Installation
 
 1. Clone the repository:
+
 ```bash
-git clone https://github.com/yourusername/crud-notetaking-application.git
+git clone https://github.com/SamedyHUNX/crud-notetaking-application.git
 cd crud-notetaking-application
 ```
 
 2. Open the project:
+
    - **Option 1**: Simply open `index.html` in your browser
    - **Option 2**: Use a local server for better experience:
+
      ```bash
      # Using Python
      python -m http.server 8000
-     
+
      # Using Node.js (http-server)
      npx http-server
-     
+
      # Using PHP
      php -S localhost:8000
      ```
@@ -87,7 +90,7 @@ cd crud-notetaking-application
 
 1. **Homepage**: Start at `index.html` to see the welcome screen
 2. **Create Notes**: Click "Click to Proceed 👉" to enter the note-taking application
-3. **Add a Note**: 
+3. **Add a Note**:
    - Enter a title
    - Add a date (YYYY/MM/DD format)
    - Write your note content
@@ -120,6 +123,7 @@ This project demonstrates:
 ## 💾 Data Storage
 
 All notes are stored in the browser's **localStorage**, which means:
+
 - Notes persist across browser sessions
 - Data is stored locally on your device
 - No server or database required
@@ -127,12 +131,14 @@ All notes are stored in the browser's **localStorage**, which means:
 ## 📱 Responsive Design
 
 The application is fully responsive and adapts to different screen sizes:
+
 - Desktop: Full sidebar and main content view
 - Mobile/Tablet: Collapsible sidebar with toggle functionality
 
 ## 🎨 Customization
 
 Feel free to customize:
+
 - Colors and styling in the CSS files
 - Fonts in `assets/font/`
 - Translations in `components/languages/languages.js`
@@ -141,6 +147,7 @@ Feel free to customize:
 ## 📝 Notes
 
 This was created as a learning project to understand:
+
 - Core web development fundamentals
 - CRUD operations in frontend applications
 - State management with localStorage
@@ -164,4 +171,3 @@ Built with ❤️ using pure HTML, CSS, and JavaScript
 ---
 
 ⭐ If you find this project helpful or interesting, feel free to star it!
-
